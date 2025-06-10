@@ -1,0 +1,15 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix api-gateway\" \"npm start --prefix user-service\" \"npm start --prefix venue-service\" \"npm start --prefix booking-service\" \"npm start --prefix frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
